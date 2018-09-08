@@ -34,4 +34,6 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	float CrossHairYLocation = 0.33333f;
+
+	bool GetLookDirection(FVector2D SreenLocation, FVector& LookDirection) const;
 };
